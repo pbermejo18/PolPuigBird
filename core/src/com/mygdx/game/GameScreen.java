@@ -66,7 +66,6 @@ public class GameScreen implements Screen {
         stage.getBatch().setProjectionMatrix(camera.combined);
         stage.draw();
 
-        stage.act();
 
         if (Gdx.input.justTouched()) {
             player.impulso();
